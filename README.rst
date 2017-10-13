@@ -18,7 +18,7 @@ kytos_courier is designed to be a generic notification abstraction that leverage
 Documentation
 -------------
 
-Visit Readthedocs.
+Visit `Readthedocs <http://kytos-courier.readthedocs.io/en/latest/>`_.
 
 Contact
 -------
