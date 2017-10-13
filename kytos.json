@@ -1,0 +1,11 @@
+{
+  "author": "amlight",
+  "username": "amlight",
+  "name": "kytos_courier",
+  "description": "Send notification messages via either email or Slack",
+  "version": "0.1",
+  "napp_dependencies": "",
+  "license": "GPL3.0",
+  "tags": ["email", "notification", "slack", "experimental"],
+  "url": "http://github.com/amlight/kytos_courier/"
+}

@@ -1,0 +1,6 @@
+{
+  "m_from": "you@domain.com",
+  "m_to": "to@domain.com",
+  "m_subject": "Notification alert",
+  "m_body": "Bad news!"
+}
