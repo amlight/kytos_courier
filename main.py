@@ -233,7 +233,7 @@ class Main(KytosNApp):
         # 'm_body' is the str message that will be sent
 
         """
-        self._slack_send(event.content.get('message'))
+        self._slack_send(**event.content.get('message'))
 
     @listen_to('amlight/kytos_courier.mail_send')
     def kytos_event_email_send(self, event):
@@ -255,7 +255,7 @@ class Main(KytosNApp):
         self.controller.buffers.app.put(event)
 
         """
-        self._email_send(event.content.get('message'))
+        self._email_send(**event.content.get('message'))
 
     def shutdown(self):
         log.info("amlight/kytos_courier is gone!")
